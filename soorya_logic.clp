@@ -1,5 +1,3 @@
-# The CLIPS knowledge base used by the UI
-
 (deftemplate user-data
    (slot monthly-units (type INTEGER))
    (slot primary-goal (type SYMBOL))
