@@ -8,7 +8,7 @@ An interactive, rule-based Expert System designed to navigate the complex reside
 
 This tool acts as an automated energy consultant, analyzing a household's consumption profile, financial goals, and upfront budget to recommend the optimal solar investment scheme under the Sri Lankan **"Soorya Bala Sangramaya"** (Battle for Solar Energy) initiative.
 
-> **View the Demo:** [Insert a screenshot of your Streamlit UI here using markdown: `![UI](assets/ui_screenshot.png)`]
+> **View the Demo:** > ![Soorya UI Screenshot](assets/ui_screenshot.png)
 
 ## ⚡ Engineering Context & Logic
 Navigating utility tariffs requires strict logical frameworks. This project maps real-world energy policies into a deterministic Expert System. 
