@@ -10,7 +10,7 @@ This tool acts as an automated energy consultant, analyzing a household's consum
 
 > **View the Demo:** > ![Soorya UI Screenshot](assets/ui_screenshot.png)
 
-## ⚡ Engineering Context & Logic
+## Engineering Context & Logic
 Navigating utility tariffs requires strict logical frameworks. This project maps real-world energy policies into a deterministic Expert System. 
 
 The Inference Engine evaluates user data against three primary schemes:
@@ -20,13 +20,13 @@ The Inference Engine evaluates user data against three primary schemes:
 
 **Intelligent Fallbacks:** The system incorporates specific engineering edge cases. For example, if a user inputs a low budget but exceptionally high monthly consumption (e.g., >300 kWh), the system intelligently overrides an "income generation" goal, recognizing that a small solar array cannot physically generate excess power under that load profile.
 
-## 🛠️ Architecture
+## Architecture
 This project strictly adheres to Expert System architecture, cleanly separating the **Knowledge Base** from the **Inference Engine** and **User Interface**.
 * **Knowledge Base & Engine:** Written in `CLIPS` (C Language Integrated Production System), utilizing forward-chaining logic.
 * **Logic Bridge:** Integrated via `clipspy`.
 * **User Interface:** Built with Python and `Streamlit` for a modern, accessible web interface.
 
-## 🚀 How to Run Locally
+## How to Run Locally
 
 1. **Clone the repository:**
    ```bash
